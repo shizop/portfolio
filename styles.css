@@ -1,0 +1,84 @@
+:root {
+  --default-font: "Inter", sans-serif;
+  --heading-font: "Exo 2", sans-serif;
+  --branding-color: #0f172a;
+  --secondary-color: #e2e7f2;
+  --tertiary-color: #8691ae;
+  --fourth--color: #4cbdc3;
+}
+
+body {
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+h1 {
+  font-size: 80px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 64px;
+  color: var(--branding-color);
+}
+
+p {
+  font-family: var(--default-font);
+  color: var(--tertiary-color);
+  font-size: 18px;
+}
+
+.hero {
+  background: var(--branding-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero h2 {
+  font-family: var(--default-font);
+  color: var(--tertiary-color);
+  font-weight: normal;
+}
+
+.btn-branding {
+  border: 2px solid var(--secondary-color);
+  border-radius: 5px;
+  color: var(--secondary-color);
+  padding: 15px 30px;
+  transition: all 100ms ease-in-out;
+  font-size: 18px;
+}
+
+.btn-branding:hover {
+  border: 2px solid var(--fourth--color);
+  color: var(--fourth--color);
+}
+
+.content-container {
+  padding: 80px 20px;
+}
+
+.content {
+  margin: 30px;
+}
+
+.built-with p {
+  margin-left: 15px;
+}
+
+.social-links a {
+  color: var(--secondary-color);
+  font-size: 24px;
+}
