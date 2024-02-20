@@ -8,6 +8,7 @@
 }
 
 body {
+  background: var(--branding-color);
 }
 
 h1,
@@ -31,7 +32,6 @@ h2 {
 
 h3 {
   font-size: 64px;
-  color: var(--branding-color);
 }
 
 p {
@@ -41,7 +41,6 @@ p {
 }
 
 .hero {
-  background: var(--branding-color);
   text-align: center;
   padding: 160px 20px;
 }
@@ -56,7 +55,7 @@ p {
   border: 2px solid var(--secondary-color);
   border-radius: 5px;
   color: var(--secondary-color);
-  padding: 15px 30px;
+  padding: 10px 30px;
   transition: all 100ms ease-in-out;
   font-size: 18px;
 }
@@ -74,8 +73,70 @@ p {
   margin: 30px;
 }
 
-.built-with p {
-  margin-left: 15px;
+.project {
+  padding: 30px 20px;
+  transition: all 100ms ease-in-out;
+}
+.project:hover {
+  border-radius: 5px;
+  background: rgba(134, 145, 174, 0.1);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.img-fluid {
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+}
+
+.project-desciption {
+  padding: 0 20px;
+}
+
+.project-desciption ul,
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+.project-desciption li {
+  list-style: none;
+  margin-right: 15px;
+  color: var(--fourth--color);
+  background: rgba(76, 189, 195, 0.2);
+  padding: 1px 4px;
+  border-radius: 4px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: var(--fourth--color);
+}
+
+form {
+  font-size: 18px;
+}
+.form-label {
+  color: var(--secondary-color);
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--tertiary-color);
+  font-weight: bold;
+  line-height: 42px;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 20px;
+  color: var(--secondary-color);
+  line-height: 42px;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--fourth--color);
 }
 
 .social-links a {

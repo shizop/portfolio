@@ -29,6 +29,19 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/">
+          <img src="images/logo.png" alt="" />
+        </a>
+        <ul>
+          <li class="active"><a href="/">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="hero">
       <h2>Hi, my name is</h2>
       <h1>SYAIBATUL ASLAMIAH</h1>
@@ -36,23 +49,46 @@
       <a href="contact.html" class="btn btn-branding mb-4">Contact Me</a>
     </div>
 
-    <div class="container content-container">
-      <div class="row">
-        <div class="content">
-          <h3 class="mb-5">About</h3>
-          <p>
-            Hey! I’m Syaibatul and I’m a front-end developer, and illustrator. I
-            love working on the web and making sure it continues to be a place
-            for everyone and our creative, personal, and weird passions.
-          </p>
-          <p>
-            When I’m not at the computer, I’m usually reading, hanging out with
-            my family and eight cats, or running around Hyrule searching for
-            Korok seeds.
-          </p>
+    <p class="text-center m-5">Check out some of my featured projects below</p>
+
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-6 d-none d-lg-flex">
+          <div class="col-6">
+            <img src="images/cat2.png" alt="cat project" class="img-fluid" />
+          </div>
+          <div class="col-6">
+            <div class="project-desciption">
+              <h2 class="mt-5">Cat Project</h2>
+              <p>
+                A landing page about Bermin cats that utilizes JavaScript
+                functions to create user interaction.
+              </p>
+              <a href="" class="btn btn-branding">Learn more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 d-none d-lg-flex">
+          <div class="col-6">
+            <img
+              src="images/weather2.png"
+              alt="weather project"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-6">
+            <div class="project-desciption">
+              <h2 class="mt-5">Weather App</h2>
+              <p>
+                Web app for current and forecast weather of cities using API.
+              </p>
+              <a href="" class="btn btn-branding">Learn more</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+
     <footer>
       <div class="social-links d-flex justify-content-end">
         <a href=""><i class="fa-brands fa-github"></i></a>
